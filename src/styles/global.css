@@ -1,0 +1,24 @@
+:root {
+  --c-pri: #006fc0;
+  --c-sub: #d3e5ee;
+}
+
+h1 {
+  color: var(--c-pri);
+}
+
+.section-title {
+  color: var(--c-pri);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+.testimonial span {
+  display: block;
+  font-size: 70%;
+  margin-top: 0.8rem;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #666;
+}

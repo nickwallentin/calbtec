@@ -1,38 +1,74 @@
 import React from "react"
 import { Link } from "gatsby"
-import headerStyles from "../styles/components/header.module.scss"
+import styled from "styled-components"
+import { Wrap } from "../components/styled"
+
+import Logo from "../assets/calbtec-logotyp.svg"
 
 export default function Header(props) {
   return (
-    <header
-      className={`${headerStyles.header} ${props.page === 'info' &&
-        headerStyles.info_page}`}
-    >
-      <nav
-        className={headerStyles.header__nav}
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <Link to="/">
-          <h1>{props.title}</h1>
-        </Link>
-        <div>
-          <h1>
-            <Link
-              to={
-                props.page === 'info'
-                  ? "/"
-                  : "/info"
-              }
-              activeClassName={headerStyles.navItemActive}
-            >
-              {props.page === 'info'
-                ? "close"
-                : "info"}
-            </Link>
-          </h1>
-        </div>
-      </nav>
-    </header>
+    <StyledHeader>
+      <Wrap>
+        <nav role="navigation" aria-label="main navigation">
+          <Link to="/">
+            <Logo style={{ maxWidth: "200px" }} />
+          </Link>
+          <ul id="nav-links">
+            <li>
+              <Link to="/kapell">Kapell</Link>
+            </li>
+            <li>
+              <Link to="/renovering">Renovering</Link>
+            </li>
+          </ul>
+          <div id="contact">
+            <span>Kostnadsfri konsultation</span>+46 (0) 707-70 07 70
+          </div>
+        </nav>
+      </Wrap>
+    </StyledHeader>
   )
 }
+
+const StyledHeader = styled.header`
+  padding: 1.5rem 0;
+  background: #d3e5ee;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        box-shadow: none;
+      }
+    }
+    #nav-links {
+      flex: 1;
+      margin: 0 2rem;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      align-items: flex-start;
+      li {
+        margin: 0px 10px;
+      }
+    }
+    #contact {
+      text-align: right;
+      font-size: 1.5rem;
+      color: var(--c-pri);
+      font-weight: 700;
+      line-height: 1.5rem;
+      span {
+        display: block;
+        color: #666;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+`

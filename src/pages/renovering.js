@@ -1,40 +1,35 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import styled from "styled-components"
 import Img from "gatsby-image"
 import Layout from "../components/Layout"
-import { Wrap, Section, Grid, Flex, Button } from "../components/styled"
-import styled from "styled-components"
+import Testimonials from "../components/Testimonials"
+import { Section, Wrap, Grid, Flex, Button, Blurb } from "../components/styled"
 
-export default function IndexPage() {
+const KapellPage = () => {
   const data = useStaticQuery(query)
-
   return (
-    <Layout page="home" bgColor="inherit">
-      <Section bg="linear-gradient(180deg, #d3e5ee 65%, rgba(255,255,255,1) 65%)">
+    <Layout>
+      <Section bg="linear-gradient(180deg, #d3e5ee 60%, rgba(255,255,255,1) 60%)">
         <Wrap>
           <Grid cols="1fr 2fr">
-            <Flex
-              column
-              justify="center"
-              style={{ alignItems: "center", textAlign: "center" }}
-            >
-              <h1 style={{ marginTop: "0px" }}>
-                Skräddarsydd båtservice med fokus på kvalitet.
+            <Flex column justify="center" style={{ textAlign: "center" }}>
+              <h1>
+                <span>Båtrenovering</span>Ge nytt liv till din båt.
               </h1>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Vi utför allt ifrån totalrenovering till renovering av specifika
+                detaljer.
               </p>
               <Button>Kostnadsfri konsultation</Button>
             </Flex>
-
             <div>
               <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
             </div>
           </Grid>
         </Wrap>
       </Section>
-      <Section space="0">
+      <Section space="0px">
         <Wrap>
           <Flex style={{ maxWidth: "900px", margin: "0 auto" }}>
             <p style={{ textAlign: "center", fontSize: "120%" }}>
@@ -46,29 +41,26 @@ export default function IndexPage() {
           </Flex>
         </Wrap>
       </Section>
+
       <Section>
         <Wrap>
-          <h2 className="section-title">Tjänster</h2>
           <Grid cols="1fr 1fr 1fr">
             <Blurb>
-              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
-              <h3>Skräddarsydda kapell</h3>
+              <h3>Fördel 1</h3>
               <p>
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
             </Blurb>
             <Blurb>
-              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
-              <h3>Båtrenovering</h3>
+              <h3>Fördel 2</h3>
               <p>
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
             </Blurb>
             <Blurb>
-              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
-              <h3>Skräddarsydda kapell</h3>
+              <h3>Fördel 3</h3>
               <p>
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
@@ -79,48 +71,31 @@ export default function IndexPage() {
       </Section>
       <Section bg="var(--c-sub)">
         <Wrap>
-          <h2 className="section-title">Om Calbtec</h2>
           <Grid>
-            <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
-            <Flex style={{ textAlign: "center" }} column justify="center">
-              <h2 style={{ margin: 0 }}>Claes Albertsson</h2>
-              <small
-                style={{
-                  color: "var(--c-pri)",
-                  textTransform: "uppercase",
-                  marginBottom: "1rem",
-                  marginTop: "0.3rem",
-                }}
-              >
-                Titlar här
-              </small>
+            <div>
+              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
+            </div>
+            <Flex column justify="center" style={{ textAlign: "center" }}>
+              <h2>Hur vi kan hjälpa dig</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
               </p>
+              <ul style={{ listStyle: "none", padding: "0px", margin: "0px" }}>
+                <li>Detta kan CALBTEC göra</li>
+                <li>Detta kan CALBTEC göra</li>
+                <li>Detta kan CALBTEC göra</li>
+                <li>Detta kan CALBTEC göra</li>
+                <li>Detta kan CALBTEC göra</li>
+                <li>Detta kan CALBTEC göra</li>
+              </ul>
             </Flex>
           </Grid>
         </Wrap>
       </Section>
       <Section>
         <Wrap>
-          <h2 className="section-title">Referenser</h2>
-          <h3
-            style={{
-              maxWidth: "700px",
-              margin: "0 auto",
-              textAlign: "center",
-              fontStyle: "italic",
-              lineHeight: "1.8rem",
-            }}
-            className="testimonial"
-          >
-            "A small river named Duden flows by their place and supplies it with
-            the necessary regelialia."
-            <span>Kalle Anka</span>
-          </h3>
+          <Testimonials />
         </Wrap>
       </Section>
       <Section space="0px">
@@ -146,7 +121,7 @@ export default function IndexPage() {
                   margin: "0 auto",
                 }}
               >
-                Kostnadsfri rådgivning
+                Kostnadsfri konsultation
               </div>
             </Flex>
           </ActionBlock>
@@ -191,6 +166,8 @@ export default function IndexPage() {
   )
 }
 
+export default KapellPage
+
 const ActionBlock = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -203,23 +180,8 @@ const ActionBlock = styled.div`
   }
 `
 
-const Blurb = styled.div`
-  text-align: center;
-  .gatsby-image-wrapper {
-    margin-bottom: 1.5rem;
-  }
-  span {
-    display: block;
-    color: var(--c-pri);
-    font-size: 200% !important;
-    font-style: italic;
-    font-weight: 300;
-    margin-bottom: 1rem;
-  }
-`
-
 const query = graphql`
-  query GetFrontPageImage {
+  query GetRenoveringPageImage {
     allFile(
       filter: { relativeDirectory: { eq: "images/front" } }
       sort: { order: ASC, fields: name }
