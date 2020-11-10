@@ -11,16 +11,9 @@ export default function Header(props) {
       <Wrap>
         <nav role="navigation" aria-label="main navigation">
           <Link to="/">
-            <Logo style={{ maxWidth: "200px" }} />
+            <Logo style={{ maxWidth: "150px" }} />
           </Link>
-          <ul id="nav-links">
-            <li>
-              <Link to="/kapell">Kapell</Link>
-            </li>
-            <li>
-              <Link to="/renovering">Renovering</Link>
-            </li>
-          </ul>
+
           <div id="contact">
             <span>Kostnadsfri konsultation</span>+46 (0) 707-70 07 70
           </div>
@@ -68,6 +61,13 @@ const StyledHeader = styled.header`
         color: #666;
         font-size: 1rem;
         font-weight: 300;
+      }
+
+      @media (max-width: 980px) {
+        font-size: 1em;
+        span {
+          font-size: 0.8rem;
+        }
       }
     }
   }

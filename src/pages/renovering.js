@@ -33,10 +33,8 @@ const KapellPage = () => {
         <Wrap>
           <Flex style={{ maxWidth: "900px", margin: "0 auto" }}>
             <p style={{ textAlign: "center", fontSize: "120%" }}>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+              På Calbtec tror vi på att göra ett bra jobb, där kunden väljer
+              nivå på material och arbete. Dyrast är inte alltid rätt.
             </p>
           </Flex>
         </Wrap>
@@ -46,7 +44,7 @@ const KapellPage = () => {
         <Wrap>
           <Grid cols="1fr 1fr 1fr">
             <Blurb>
-              <h3>Fördel 1</h3>
+              <h3>Du bestämmer vad du vill ha.</h3>
               <p>
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.

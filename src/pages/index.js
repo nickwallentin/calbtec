@@ -22,10 +22,10 @@ export default function IndexPage() {
                 Skräddarsydd båtservice med fokus på kvalitet.
               </h1>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Calbtec erbjuder reparation och renovering av båtar och
+                båtkapell. Samt skräddarsydda båtkapell.
               </p>
-              <Button>Kostnadsfri konsultation</Button>
+              <Button to="/kontakt">Kostnadsfri konsultation</Button>
             </Flex>
 
             <div>
@@ -38,10 +38,11 @@ export default function IndexPage() {
         <Wrap>
           <Flex style={{ maxWidth: "900px", margin: "0 auto" }}>
             <p style={{ textAlign: "center", fontSize: "120%" }}>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+              På Calbtec hjälper vi dig som vill ge ett nytt liv till din båt.
+              Vi tror på att göra ett bra jobb, där kunden väljer nivå på
+              material och arbete. Dyrast är inte alltid rätt. Tillsammans
+              bestämmer vi det arbete som ska utföras och det material ni önskar
+              använda.
             </p>
           </Flex>
         </Wrap>
@@ -51,27 +52,29 @@ export default function IndexPage() {
           <h2 className="section-title">Tjänster</h2>
           <Grid cols="1fr 1fr 1fr">
             <Blurb>
-              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
-              <h3>Skräddarsydda kapell</h3>
+              <Img fluid={data.allFile.edges[2].node.childImageSharp.fluid} />
+              <h3>Båtkapell</h3>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Vi erbjuder reparation av kapell till förmånliga priser. T.ex.
+                nya sömmar, fästöglor som lossnat eller delar av sömmar som har
+                gått upp.
               </p>
             </Blurb>
             <Blurb>
-              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
+              <Img fluid={data.allFile.edges[3].node.childImageSharp.fluid} />
               <h3>Båtrenovering</h3>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Dags att sätta nytt liv i båten? Calbtec renoverar din båt och
+                kan göra allt från att polera, ta fram nya dynor till en
+                totalrenovering av båten.
               </p>
             </Blurb>
             <Blurb>
-              <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
+              <Img fluid={data.allFile.edges[4].node.childImageSharp.fluid} />
               <h3>Skräddarsydda kapell</h3>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Inom en snar framtid kommer Calbtec att erbjuda skräddarsydda
+                kapell.
               </p>
             </Blurb>
           </Grid>
@@ -81,7 +84,7 @@ export default function IndexPage() {
         <Wrap>
           <h2 className="section-title">Om Calbtec</h2>
           <Grid>
-            <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
+            <Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} />
             <Flex style={{ textAlign: "center" }} column justify="center">
               <h2 style={{ margin: 0 }}>Claes Albertsson</h2>
               <small
@@ -104,7 +107,7 @@ export default function IndexPage() {
           </Grid>
         </Wrap>
       </Section>
-      <Section>
+      {/*<Section>
         <Wrap>
           <h2 className="section-title">Referenser</h2>
           <h3
@@ -122,8 +125,8 @@ export default function IndexPage() {
             <span>Kalle Anka</span>
           </h3>
         </Wrap>
-      </Section>
-      <Section space="0px">
+          </Section> 
+      <Section>
         <Wrap>
           <ActionBlock>
             <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
@@ -133,10 +136,7 @@ export default function IndexPage() {
               style={{ textAlign: "center", padding: "2rem" }}
             >
               <h3>Redo att ta din båt till nästa nivå?</h3>
-              <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
-              </p>
+              <p>Kontakta Calbtec för en helt kostnadsfri konsultation.</p>
               <div
                 style={{
                   padding: "10px 30px",
@@ -146,12 +146,13 @@ export default function IndexPage() {
                   margin: "0 auto",
                 }}
               >
-                Kostnadsfri rådgivning
+                Kostnadsfri konsultation
               </div>
             </Flex>
           </ActionBlock>
         </Wrap>
       </Section>
+      */}
       <Section>
         <Wrap>
           <h2 className="section-title">Hur det fungerar</h2>
@@ -161,8 +162,8 @@ export default function IndexPage() {
                 <span>1.</span> Kostnadsfri konsultation
               </h3>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Du kontaktar Calbtec, vi får en första kontakt och lyssnar på
+                dina behov. Om möjligheten finns så kommer vi även på besök.
               </p>
             </Blurb>
             <Blurb>
@@ -170,8 +171,8 @@ export default function IndexPage() {
                 <span>2.</span> Få en offert
               </h3>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Vi tar fram en offert till dig utifrån dina behov. Här får du
+                ett pris på det kommande jobbet.
               </p>
             </Blurb>
             <Blurb>
@@ -179,12 +180,14 @@ export default function IndexPage() {
                 <span>3.</span> Utförande/leverans
               </h3>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Godkänner du offerten så sätter vi igång med det önskade arbetet
+                och håller dig uppdaterad längs med processen.
               </p>
             </Blurb>
           </Grid>
-          <Button>Kostnadsfri konsultation</Button>
+          <div style={{ textAlign: "center" }}>
+            <Button to="/kontakt">Kostnadsfri konsultation</Button>
+          </div>
         </Wrap>
       </Section>
     </Layout>

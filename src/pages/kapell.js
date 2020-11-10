@@ -18,8 +18,9 @@ const KapellPage = () => {
                 <span>Båtkapell</span>Skräddarsydda båtkapell.
               </h1>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                Vi erbjuder reparation av kapell till förmånliga priser. T.ex.
+                nya sömmar, fästöglor som lossnat eller delar av sömmar som har
+                gått upp
               </p>
               <Button>Kostnadsfri konsultation</Button>
             </Flex>
@@ -33,10 +34,10 @@ const KapellPage = () => {
         <Wrap>
           <Flex style={{ maxWidth: "900px", margin: "0 auto" }}>
             <p style={{ textAlign: "center", fontSize: "120%" }}>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+              Vi kommer inom en snar framtid kunna erbjuda hela skräddarsydda
+              kapell, där du själv väljer nivå på detaljer enligt vad som känns
+              bäst för dig idag. Vi kommer aldrig att försöka få dig att köpa
+              mer och dyrare.
             </p>
           </Flex>
         </Wrap>

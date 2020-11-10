@@ -10,7 +10,7 @@ const Footer = () => {
       <Wrap>
         <Grid gap="0px" cols="1fr 1fr 1fr">
           <div></div>
-          <div className="mid" style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center" }}>
             <Logo />
             <p style={{ fontSize: "0.7rem", marginTop: "1rem" }}>
               Skräddarsydd båtservice med fokus på kvalitet.

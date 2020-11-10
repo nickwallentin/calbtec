@@ -1,14 +1,19 @@
+import { Link } from "gatsby"
 import styled from "styled-components"
 
 export const Wrap = styled.div`
   max-width: 1080px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 `
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: ${props => (props.cols ? props.cols : "1fr 1fr")};
   grid-gap: ${props => (props.gap ? props.gap : "2rem")};
+
+  @media screen and (max-width: 980px) {
+    grid-template-columns: 1fr;
+  }
 `
 export const Flex = styled.div`
   display: flex;
@@ -36,7 +41,7 @@ export const Section = styled.section`
   }
 `
 
-export const Button = styled.div`
+export const Button = styled(Link)`
   color: var(--c-pri);
   font-weight: 700;
   background: var(--c-pri);
@@ -46,6 +51,7 @@ export const Button = styled.div`
   font-size: 0.8rem;
   letter-spacing: 1px;
   position: relative;
+  display: inline-block;
 
   text-align: center;
   max-width: 300px;
