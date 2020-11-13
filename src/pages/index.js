@@ -85,24 +85,27 @@ export default function IndexPage() {
           <h2 className="section-title">Om Calbtec</h2>
           <Grid>
             <Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} />
-            <Flex style={{ textAlign: "center" }} column justify="center">
+            <Flex style={{ textAlign: "left" }} column justify="center">
               <h2 style={{ margin: 0 }}>Claes Albertsson</h2>
-              <small
-                style={{
-                  color: "var(--c-pri)",
-                  textTransform: "uppercase",
-                  marginBottom: "1rem",
-                  marginTop: "0.3rem",
-                }}
-              >
-                Titlar här
-              </small>
+
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+                Med en bakgrund i flottan, har passionen för båtar alltid
+                funnits i bakgrunden. Efter nästan 30 år som anställd, har jag
+                nu startat CALBTEC AB. Jag tror på ärliga jobb i öppen dialog
+                med kunden.
               </p>
+              <ul>
+                <li>Kvitton och skatt är självklara</li>
+                <li>Inga oskäliga påslag på material.</li>
+                <li>
+                  Bestäm själv hur mycket du tycker är rätt att lägga ut just nu
+                </li>
+                <li>
+                  Gåt det att komplettera med utrustningsdetaljer typ fönster
+                  senare, så erbjuder jag det.
+                </li>
+              </ul>
+              <p>Det värsta jag kan tänka mig är en missnöjd kund.</p>
             </Flex>
           </Grid>
         </Wrap>
