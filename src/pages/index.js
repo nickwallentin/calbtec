@@ -67,8 +67,9 @@ export default function IndexPage() {
               <h3>Båtrenovering</h3>
               <p>
                 Dags att sätta nytt liv i båten? CALBTEC renoverar din båt och
-                kan göra allt från att polera, ta fram nya dynor till en
-                totalrenovering av båten.
+                kan göra allt från att polera, ta fram nya dynor till en{" "}
+                <Link to="/case/totalrenovering">totalrenovering</Link> av
+                båten.
               </p>
             </Blurb>
             <Blurb>
@@ -214,6 +215,9 @@ const ActionBlock = styled.div`
 
   h3 {
     color: white;
+  }
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
   }
 `
 
