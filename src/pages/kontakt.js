@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
+import SEO from "../components/seo"
 import { Section, Wrap, Grid } from "../components/styled"
 
 const ContactPage = () => {
   return (
     <Layout>
+      <SEO title="Kontakt" />
       <Section>
         <Wrap style={{ textAlign: "center" }}>
           <div>
