@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import { Wrap, Section, Grid, Flex, Button } from "../components/styled"
@@ -131,18 +131,24 @@ export default function IndexPage() {
           </h3>
         </Wrap>
           </Section> 
+          */}
       <Section>
         <Wrap>
           <ActionBlock>
-            <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
+            <Img fluid={data.allFile.edges[4].node.childImageSharp.fluid} />
             <Flex
               column
               justify="center"
               style={{ textAlign: "center", padding: "2rem" }}
             >
-              <h3>Redo att ta din båt till nästa nivå?</h3>
-              <p>Kontakta Calbtec för en helt kostnadsfri konsultation.</p>
-              <div
+              <h3>Case: Totalrenovering</h3>
+              <p>
+                Ta en titt på hur CALBTEC totalrenoverade och gav en gammal båt
+                ett helt nytt liv med en polerad exteriör, modern interiör och
+                ett skräddarsytt kapell.
+              </p>
+              <Link
+                to="/case/totalrenovering"
                 style={{
                   padding: "10px 30px",
                   background: "white",
@@ -151,13 +157,13 @@ export default function IndexPage() {
                   margin: "0 auto",
                 }}
               >
-                Kostnadsfri konsultation
-              </div>
+                Se mer
+              </Link>
             </Flex>
           </ActionBlock>
         </Wrap>
       </Section>
-      */}
+
       <Section>
         <Wrap>
           <h2 className="section-title">Hur det fungerar</h2>
