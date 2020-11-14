@@ -15,7 +15,7 @@ const ContactPage = () => {
           </div>
           <div>
             <strong>Telefon</strong>
-            <p>+46 070 70 070</p>
+            <p>+46 (0) 760-167 257</p>
 
             <strong>Epost</strong>
             <p>kontakt@calbtec.se</p>
