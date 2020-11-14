@@ -4,12 +4,14 @@ import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import { Wrap, Section, Grid, Flex, Button } from "../components/styled"
 import styled from "styled-components"
+import SEO from "../components/seo"
 
 export default function IndexPage() {
   const data = useStaticQuery(query)
 
   return (
     <Layout page="home" bgColor="inherit">
+      <SEO title="Skräddarsydd båtservice" />
       <Section bg="linear-gradient(180deg, #d3e5ee 65%, rgba(255,255,255,1) 65%)">
         <Wrap>
           <Grid cols="1fr 2fr">
@@ -22,7 +24,7 @@ export default function IndexPage() {
                 Skräddarsydd båtservice med fokus på kvalitet.
               </h1>
               <p>
-                Calbtec erbjuder reparation och renovering av båtar och
+                CALBTEC erbjuder reparation och renovering av båtar och
                 båtkapell. Samt skräddarsydda båtkapell.
               </p>
               <Button to="/kontakt">Kostnadsfri konsultation</Button>
@@ -38,7 +40,7 @@ export default function IndexPage() {
         <Wrap>
           <Flex style={{ maxWidth: "900px", margin: "0 auto" }}>
             <p style={{ textAlign: "center", fontSize: "120%" }}>
-              På Calbtec hjälper vi dig som vill ge ett nytt liv till din båt.
+              På CALBTEC hjälper vi dig som vill ge ett nytt liv till din båt.
               Vi tror på att göra ett bra jobb, där kunden väljer nivå på
               material och arbete. Dyrast är inte alltid rätt. Tillsammans
               bestämmer vi det arbete som ska utföras och det material ni önskar
@@ -61,19 +63,19 @@ export default function IndexPage() {
               </p>
             </Blurb>
             <Blurb>
-              <Img fluid={data.allFile.edges[3].node.childImageSharp.fluid} />
+              <Img fluid={data.allFile.edges[4].node.childImageSharp.fluid} />
               <h3>Båtrenovering</h3>
               <p>
-                Dags att sätta nytt liv i båten? Calbtec renoverar din båt och
+                Dags att sätta nytt liv i båten? CALBTEC renoverar din båt och
                 kan göra allt från att polera, ta fram nya dynor till en
                 totalrenovering av båten.
               </p>
             </Blurb>
             <Blurb>
-              <Img fluid={data.allFile.edges[4].node.childImageSharp.fluid} />
+              <Img fluid={data.allFile.edges[3].node.childImageSharp.fluid} />
               <h3>Skräddarsydda kapell</h3>
               <p>
-                Inom en snar framtid kommer Calbtec att erbjuda skräddarsydda
+                Inom en snar framtid kommer CALBTEC att erbjuda skräddarsydda
                 kapell.
               </p>
             </Blurb>
@@ -82,7 +84,7 @@ export default function IndexPage() {
       </Section>
       <Section bg="var(--c-sub)">
         <Wrap>
-          <h2 className="section-title">Om Calbtec</h2>
+          <h2 className="section-title">Om CALBTEC</h2>
           <Grid>
             <Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} />
             <Flex style={{ textAlign: "left" }} column justify="center">
@@ -165,7 +167,7 @@ export default function IndexPage() {
                 <span>1.</span> Kostnadsfri konsultation
               </h3>
               <p>
-                Du kontaktar Calbtec, vi får en första kontakt och lyssnar på
+                Du kontaktar CALBTEC, vi får en första kontakt och lyssnar på
                 dina behov. Om möjligheten finns så kommer vi även på besök.
               </p>
             </Blurb>

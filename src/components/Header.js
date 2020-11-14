@@ -15,7 +15,7 @@ export default function Header(props) {
           </Link>
 
           <div id="contact">
-            <span>Kostnadsfri konsultation</span>+46 (0) 707-70 07 70
+            <span>Kostnadsfri konsultation</span>+46 (0) 760-167 257
           </div>
         </nav>
       </Wrap>
@@ -25,7 +25,7 @@ export default function Header(props) {
 
 const StyledHeader = styled.header`
   padding: 1.5rem 0;
-  background: #d3e5ee;
+  background: var(--c-bg-secondary);
 
   nav {
     display: flex;
