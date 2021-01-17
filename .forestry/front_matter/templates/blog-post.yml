@@ -25,3 +25,5 @@ fields:
 - name: public
   type: boolean
   label: Visas på hemsidan
+pages:
+- content/posts/totalrenovering.md
