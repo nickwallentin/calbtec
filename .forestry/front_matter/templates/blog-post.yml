@@ -5,19 +5,6 @@ fields:
 - type: text
   name: title
   label: title
-- name: author
-  type: select
-  default: ''
-  config:
-    required: true
-    options: []
-    source:
-      type: documents
-      section: author-list
-      file: content/data/authors.yaml
-      path: authors
-  label: author
-  description: Enter author of post
 - name: date
   type: datetime
   label: date
@@ -35,3 +22,6 @@ fields:
   label: hero image
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
+- name: public
+  type: boolean
+  label: Visas på hemsidan
