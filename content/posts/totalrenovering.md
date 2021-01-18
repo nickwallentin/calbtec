@@ -15,7 +15,7 @@ All inredning dokumenterades och forslades sen direkt till återvinningscentrale
 
 ![](/content/images/skarmavbild-2021-01-18-kl-17-15-41.png)
 
-![](/content/images/img_6786.jpeg)
+![](/content/images/skarmavbild-2021-01-18-kl-18-00-37.png)
 
 ![](/content/images/skarmavbild-2021-01-18-kl-17-16-19.png)
 
