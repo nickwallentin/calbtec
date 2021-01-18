@@ -174,7 +174,7 @@ Nya dynor tillverkade, med rejält skumgummi och ordentlig dynväv.
 
 Alla båtar är dessbättre inte i så dåligt skick som vårt exempel. Vi vill dock visa att det går att få skräckexempel presentabla. Här var all inredning fuktskadad och sönder.
 
-För dig sm kund är det troligtvis bara delar av exemplet som är relevanta.
+För dig som kund är det troligtvis bara delar av exemplet som är relevanta.
 
 Vill du göra vissa delar själv? Absolut, du väljer alltid vilken nivå du vill ha av oss.
 
