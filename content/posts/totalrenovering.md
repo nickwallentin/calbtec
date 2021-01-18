@@ -11,6 +11,18 @@ public: true
 
 All inredning dokumenterades och forslades sen direkt till återvinningscentralen – det ända som var användbart var styrpulpet, ratt och vissa beslag till stolarna.
 
+<image-gallery>
+
+![](/content/images/img_6786.jpeg)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-15-41.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-16-19.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-16-43.png)
+
+</image-gallery>
+
 ## **Skrovet**
 
 Skrovet är rensat invändigt, tvättat, torkat och ommålat. - Trick för att få bort klistrad skratta som vanligt i fören:
@@ -19,6 +31,22 @@ Skrovet är rensat invändigt, tvättat, torkat och ommålat. - Trick för att f
 * Lägg dem över områden med gammalt lim, det håller fukten där den skall vara istället för i botten på båten.
 * Låt verka, kontrollera då och då om limmet har löst sig - då är det dags att skrapa.
 * Jag använde neodynmagneter för att hålla fast dem. Parvis på trasan på insidan och utsidan av skrovet. Det håller fast trasan. Inga dyra grejor, finns på Clas Ohlson.
+
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-18-01.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-18-11.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-18-44.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-18-55.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-19-07.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-17-19-44.png)
+
+</image-gallery>
 
 ## **Stolar och soffa**
 
