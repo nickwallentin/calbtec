@@ -58,11 +58,39 @@ Stolar och soffa är byggda från grunden, med orginalen som förlaga.
 
 Resultatet har en doft av stora amerikanska bilar från 60-talet, fast det sitter i en rätt liten båt.
 
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-03-03.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-03-13.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-03-21.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-03-45.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-03-56.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-04-14.png)
+
+</image-gallery>
+
 ## **Paneler**
 
 Panelerna är nytillverkade med vinylklädsel som originalet, men med en lte modernare design och skumgummistoppninig för ett mjukare intryck.
 
 Extra kraftig panel på styrbordssidan, för att säkerställa en robust montering av gasreglaget.
+
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-07-15.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-07-26.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-07-34.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-07-42.png)
+
+</image-gallery>
 
 ## **Elsystem**
 
@@ -74,6 +102,22 @@ Extra sladdar dragna där man kan tänka sig att nya förbrukare kommer att dyka
 
 Alla sladdar är nu dolda bakom paneler, med undantag av de sista centimetrarna till den nya torkamotorn.
 
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-10-04.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-10-14.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-10-24.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-10-33.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-10-48.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-10-56.png)
+
+</image-gallery>
+
 ## Styrpulpeten
 
 Styrpulpeten var inte alltför tokig, bara lite ruffig.
@@ -84,6 +128,18 @@ Originalets klistrade träimitation är ersatt med en klädd. panel med plats f�
 
 Tanken var att få ett snyggare utseende men att hålla pulpeten ren från modernare inslag. Manöverpanelen för lanternor, belysning etc. har därför placerats på sidopanelen.
 
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-12-55.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-13-07.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-13-16.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-13-24.png)
+
+</image-gallery>
+
 ## Kapellet
 
 Kapellet är nytillverkat och alla öljettvred är utbytta. Lite modifikationer är gjorda i förhållande till originalkapellet.
@@ -92,12 +148,42 @@ Kapellet är nytillverkat och alla öljettvred är utbytta. Lite modifikationer 
 * Knytbanden till att hålla uppe bakstycket är ersatta av hela kanaler som försluts och öppnas smed kardborreband, för enkel montering av kapellet.
 * Kapellbågarna är klädda med samma tyg som kapellet.
 
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-15-17.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-15-27.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-15-35.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-15-43.png)
+
+</image-gallery>
+
+## Dynor
+
 Originaldynorna hade mer eller mindre gått i upplösning och föll isär när de lyftes.
 
 Nya dynor tillverkade, med rejält skumgummi och ordentlig dynväv.
+
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-16-56.png)
+
+</image-gallery>
 
 Alla båtar är dessbättre inte i så dåligt skick som vårt exempel. Vi vill dock visa att det går att få skräckexempel presentabla. Här var all inredning fuktskadad och sönder.
 
 För dig sm kund är det troligtvis bara delar av exemplet som är relevanta.
 
 Vill du göra vissa delar själv? Absolut, du väljer alltid vilken nivå du vill ha av oss.
+
+<image-gallery>
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-18-30.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-18-38.png)
+
+![](/content/images/skarmavbild-2021-01-18-kl-18-18-47.png)
+
+</image-gallery>
