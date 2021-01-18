@@ -13,6 +13,13 @@ module.exports = {
     infoData: infoData,
   },
   plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "posts",
+        path: `${__dirname}/content/posts`,
+      },
+    },
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-yaml",
@@ -24,13 +31,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "posts",
-        path: `${__dirname}/content/posts`,
-      },
-    },
+
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -71,25 +72,6 @@ module.exports = {
       resolve: "gatsby-plugin-sharp",
       options: {
         defaultQuality: 75,
-      },
-    },
-    {
-      resolve: `gatsby-source-airtable`,
-      options: {
-        apiKey: `keyQKHh27jLHCs285`, // may instead specify via env, see below
-        concurrency: 5, // default, see using markdown and attachments for more information
-        tables: [
-          {
-            baseId: `appkC4VrvraHqKnDF`,
-            tableName: `Case`,
-            tableView: `Overview`,
-            mapping: {
-              Description: `text/markdown`,
-              ImagesBefore: `fileNode`,
-              ImagesAfter: `fileNode`,
-            },
-          },
-        ],
       },
     },
     `gatsby-transformer-sharp`,

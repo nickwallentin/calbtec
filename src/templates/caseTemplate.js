@@ -1,18 +1,25 @@
-import React, { useState } from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
-
-import styled from "styled-components"
-import Layout from "../components/Layout"
 import { Grid, Section, Wrap } from "../components/styled"
+import React, { useState } from "react"
 
 import CloseIcon from "../assets/close.svg"
+import ImageGallery from "../components/imageGallery"
+import Img from "gatsby-image"
+import Layout from "../components/Layout"
+import { graphql } from "gatsby"
+import rehypeReact from "rehype-react"
+import styled from "styled-components"
 
 const CaseTemplate = ({ data }) => {
   const [showLightbox, setShowLightbox] = useState(false)
   const [lightboxImage, setLightboxImage] = useState(null)
+  console.log(data)
 
-  const { Title, Description, ImagesBefore, ImagesAfter } = data.airtable.data
+  const post = data.markdownRemark
+
+  const renderAst = new rehypeReact({
+    createElement: React.createElement,
+    components: { "image-gallery": ImageGallery },
+  }).Compiler
 
   const handleLightbox = image => {
     setShowLightbox(!showLightbox)
@@ -28,50 +35,11 @@ const CaseTemplate = ({ data }) => {
         bg="linear-gradient(180deg, #d3e5ee 0%, rgba(255,255,255,1) 100%)"
       >
         <Wrap>
-          <h1>{Title}</h1>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: Description.childMarkdownRemark.html,
-            }}
-          />
+          <h1>{post.frontmatter.title}</h1>
+          <div className="content">{renderAst(post.htmlAst)}</div>
         </Wrap>
       </Section>
-      <Section>
-        <Wrap>
-          <h2>Före</h2>
-          <Grid cols="1fr 1fr 1fr 1fr" gap="1rem">
-            {ImagesBefore.localFiles.map(image => {
-              return (
-                <div
-                  style={{ cursor: "pointer" }}
-                  onClick={() => handleLightbox(image)}
-                  className="image"
-                >
-                  <Img fluid={image.childImageSharp.fluid} />
-                </div>
-              )
-            })}
-          </Grid>
-        </Wrap>
-      </Section>
-      <Section style={{ paddingTop: "0px" }}>
-        <Wrap>
-          <h2>Efter</h2>
-          <Grid cols="1fr 1fr 1fr 1fr" gap="1rem">
-            {ImagesAfter.localFiles.map(image => {
-              return (
-                <div
-                  style={{ cursor: "pointer" }}
-                  onClick={() => handleLightbox(image)}
-                  className="image"
-                >
-                  <Img fluid={image.childImageSharp.fluid} />
-                </div>
-              )
-            })}
-          </Grid>
-        </Wrap>
-      </Section>
+
       {showLightbox && (
         <React.Fragment>
           <Overlay onClick={() => handleLightbox()}>
@@ -89,36 +57,12 @@ const CaseTemplate = ({ data }) => {
 export default CaseTemplate
 
 export const pageQuery = graphql`
-  query getCaseByID($id: String!) {
-    airtable(id: { eq: $id }) {
-      data {
-        Title
-        Description {
-          childMarkdownRemark {
-            html
-          }
-        }
-        ImagesBefore {
-          localFiles {
-            publicURL
-            childImageSharp {
-              fluid(maxWidth: 500, maxHeight: 400) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-        }
-        ImagesAfter {
-          localFiles {
-            publicURL
-            childImageSharp {
-              fluid(maxWidth: 500, maxHeight: 400) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-        }
+  query getCaseBySlug($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        title
       }
+      htmlAst
     }
   }
 `

@@ -13,8 +13,8 @@ module.exports.onCreateNode = ({ node, actions }) => {
   // Transform the new node here and create a new node or
   // create a new node field.
   const { createNodeField } = actions
-  if (node.internal.type === "Airtable" && node.table === "Case") {
-    const slug = `/case/${slugify(node.data.Title)}`
+  if (node.internal.type === "MarkdownRemark") {
+    const slug = `/case/${slugify(node.frontmatter.title)}`
     createNodeField({
       //same as node: node
       node,
@@ -32,10 +32,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
   //get slugs
   const response = await graphql(`
     query {
-      allAirtable {
+      allMarkdownRemark {
         edges {
           node {
-            table
             id
             fields {
               slug
@@ -45,15 +44,13 @@ module.exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  response.data.allAirtable.edges.forEach(edge => {
-    if (edge.node.table === "Case") {
-      createPage({
-        component: caseTemplate,
-        path: edge.node.fields.slug,
-        context: {
-          id: edge.node.id,
-        },
-      })
-    }
+  response.data.allMarkdownRemark.edges.forEach(edge => {
+    createPage({
+      component: caseTemplate,
+      path: edge.node.fields.slug,
+      context: {
+        id: edge.node.id,
+      },
+    })
   })
 }

@@ -37,6 +37,7 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "rehype-react": "^6.1.0",
     "styled-components": "^5.2.1",
     "typography": "^0.16.19",
     "typography-theme-de-young": "^0.16.19",
