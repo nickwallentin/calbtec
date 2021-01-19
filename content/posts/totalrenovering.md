@@ -1,5 +1,5 @@
 ---
-date: 2021-01-17T10:38:50Z
+date: 2021-01-17T10:38:50.000+00:00
 hero_image: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 title: Totalrenovering
 public: true
@@ -7,9 +7,9 @@ public: true
 ---
 ## **Båten – En Skibsplast 520, i mycket dåligt skick.**
 
-Årsmodell, möjligen 1969. Motorn. visade sig efter efterforskningar vara från det året.
+Årsmodell, möjligen 1969. Motorn visade sig efter efterforskningar vara från det året.
 
-All inredning dokumenterades och forslades sen direkt till återvinningscentralen – det ända som var användbart var styrpulpet, ratt och vissa beslag till stolarna.
+All inredning dokumenterades och forslades sen direkt till återvinningscentralen – det enda som var användbart var styrpulpet, ratt och vissa beslag till stolarna.
 
 <image-gallery>
 
@@ -25,7 +25,7 @@ All inredning dokumenterades och forslades sen direkt till återvinningscentrale
 
 ## **Skrovet**
 
-Skrovet är rensat invändigt, tvättat, torkat och ommålat. - Trick för att få bort klistrad skratta som vanligt i fören:
+Skrovet är rensat invändigt, tvättat, torkat och ommålat. - Trick för att få bort klistrad skrovmattasom vanligt i fören:
 
 * Dränk trasor i limborttagning eller bensin - Använd mask och hantera trasorna ansvarsfullt!
 * Lägg dem över områden med gammalt lim, det håller fukten där den skall vara istället för i botten på båten.
@@ -76,7 +76,7 @@ Resultatet har en doft av stora amerikanska bilar från 60-talet, fast det sitte
 
 ## **Paneler**
 
-Panelerna är nytillverkade med vinylklädsel som originalet, men med en lte modernare design och skumgummistoppninig för ett mjukare intryck.
+Panelerna är nytillverkade med vinylklädsel som originalet, men med en lite modernare design och skumgummistoppninig för ett mjukare intryck.
 
 Extra kraftig panel på styrbordssidan, för att säkerställa en robust montering av gasreglaget.
 
@@ -98,7 +98,7 @@ Elsystemet var sporadiskt och hade, som resultat av några utvidgningar, sladdar
 
 Det är ersatt med en ny dragning baserad på ett uttänkt elschema.
 
-Extra sladdar dragna där man kan tänka sig att nya förbrukare kommer att dyka upp.
+Extra sladdar är dragna där man kan tänka sig att nya förbrukare kommer att dyka upp.
 
 Alla sladdar är nu dolda bakom paneler, med undantag av de sista centimetrarna till den nya torkamotorn.
 
@@ -124,7 +124,7 @@ Styrpulpeten var inte alltför tokig, bara lite ruffig.
 
 Den är tillputsad och målad på insidan.
 
-Originalets klistrade träimitation är ersatt med en klädd. panel med plats för instrument.
+Originalets klistrade träimitation är ersatt med en klädd panel med plats för instrument.
 
 Tanken var att få ett snyggare utseende men att hålla pulpeten ren från modernare inslag. Manöverpanelen för lanternor, belysning etc. har därför placerats på sidopanelen.
 
@@ -145,7 +145,8 @@ Tanken var att få ett snyggare utseende men att hålla pulpeten ren från moder
 Kapellet är nytillverkat och alla öljettvred är utbytta. Lite modifikationer är gjorda i förhållande till originalkapellet.
 
 * Bakruta adderad.
-* Knytbanden till att hålla uppe bakstycket är ersatta av hela kanaler som försluts och öppnas smed kardborreband, för enkel montering av kapellet.
+* Knytbanden till att hålla uppe bakstycket är ersatta av rejäla band med kardborrefästning
+* Knytbanden för att hålla fast kapellbågarna är ersatta av hela kanaler som försluts och öppnas med kardborreband, för enkel montering av kapellet.
 * Kapellbågarna är klädda med samma tyg som kapellet.
 
 <image-gallery>
