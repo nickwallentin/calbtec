@@ -5,6 +5,7 @@ import CloseIcon from "../assets/close.svg"
 import ImageGallery from "../components/imageGallery"
 import Img from "gatsby-image"
 import Layout from "../components/Layout"
+import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import rehypeReact from "rehype-react"
 import styled from "styled-components"
@@ -30,6 +31,7 @@ const CaseTemplate = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} />
       <Section
         style={{ paddingBottom: "0px" }}
         bg="linear-gradient(180deg, #d3e5ee 0%, rgba(255,255,255,1) 100%)"

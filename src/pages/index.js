@@ -1,10 +1,11 @@
-import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import { Button, Flex, Grid, Section, Wrap } from "../components/styled"
+import { Link, graphql, useStaticQuery } from "gatsby"
+
 import Img from "gatsby-image"
 import Layout from "../components/Layout"
-import { Wrap, Section, Grid, Flex, Button } from "../components/styled"
-import styled from "styled-components"
+import React from "react"
 import SEO from "../components/seo"
+import styled from "styled-components"
 
 export default function IndexPage() {
   const data = useStaticQuery(query)
@@ -68,8 +69,8 @@ export default function IndexPage() {
               <p>
                 Dags att sätta nytt liv i båten? CALBTEC renoverar din båt och
                 kan göra allt från att polera, ta fram nya dynor till en{" "}
-                <Link to="/case/totalrenovering">totalrenovering</Link> av
-                båten.
+                <Link to="/case/totalrenovering-av-bat">totalrenovering</Link>{" "}
+                av båten.
               </p>
             </Blurb>
             <Blurb>
