@@ -1,7 +1,7 @@
 ---
 date: 2021-01-17T10:38:50.000+00:00
 hero_image: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
-title: Totalrenovering
+title: Totalrenovering av båt
 public: true
 
 ---
