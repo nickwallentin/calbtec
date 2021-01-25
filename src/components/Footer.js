@@ -1,4 +1,5 @@
 import { Flex, Grid, Wrap } from "../components/styled"
+import { Link, navigate } from "gatsby"
 
 import Logo from "../assets/calbtec-logotyp.svg"
 import React from "react"
@@ -11,7 +12,8 @@ const Footer = () => {
       <Wrap>
         <div className="container">
           <div style={{ textAlign: "center" }}>
-            <Logo />
+            <Logo onClick={() => navigate("/")} />
+
             <p style={{ fontSize: "0.7rem", marginTop: "1rem" }}>
               Skräddarsydd båtservice med fokus på kvalitet.
             </p>

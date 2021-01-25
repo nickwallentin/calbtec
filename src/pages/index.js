@@ -90,7 +90,7 @@ export default function IndexPage() {
           <Grid>
             <Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} />
             <Flex style={{ textAlign: "left" }} column justify="center">
-              <h2 style={{ margin: 0 }}>Claes Albertsson</h2>
+              <h2 style={{ margin: 0 }}>Claes Albertson</h2>
 
               <p>
                 Med en bakgrund i flottan, har passionen för båtar alltid
@@ -150,7 +150,7 @@ export default function IndexPage() {
                 ett skräddarsytt kapell.
               </p>
               <Link
-                to="/case/totalrenovering"
+                to="/case/totalrenovering-av-bat"
                 style={{
                   padding: "10px 30px",
                   background: "white",
