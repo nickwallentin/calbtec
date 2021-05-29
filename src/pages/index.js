@@ -82,6 +82,17 @@ export default function IndexPage() {
               </p>
             </Blurb>
           </Grid>
+          <p
+            style={{
+              textAlign: "center",
+              maxWidth: "700px",
+              margin: "20px auto 0px auto",
+            }}
+          >
+            Den utrustning och kompetens vi har innebär att vi även kan erbjuda
+            lagning av cab till bil exempelvis byte av fönster eller byte av väv
+            till markis.
+          </p>
         </Wrap>
       </Section>
       <Section bg="var(--c-sub)">
