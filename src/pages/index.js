@@ -116,7 +116,7 @@ export default function IndexPage() {
                   Bestäm själv hur mycket du tycker är rätt att lägga ut just nu
                 </li>
                 <li>
-                  Gåt det att komplettera med utrustningsdetaljer typ fönster
+                  Går det att komplettera med utrustningsdetaljer typ fönster
                   senare, så erbjuder jag det.
                 </li>
               </ul>
